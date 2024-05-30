@@ -23,6 +23,7 @@ function Contenuto(): JSX.Element {
               </p>
             </div>
           ))}
+          
       </div>
       <div className="footer">
         <p>This page was made by Francesco Berardino</p>
