@@ -1,9 +1,9 @@
 import {createContext, useContext} from 'react';
-import { Root } from '../types/types';
+import { Post } from '../types/types';
 
 export type TContesto = {
-    data: Root | undefined
-    setData: (args: Root) => void
+    data: Post[] | undefined
+    setData: (args: Post[]) => void
 }
 
-export const Contesto = createContext<TContesto | null>(null)
+export const Contesto = createContext<TContesto | undefined>(undefined)
